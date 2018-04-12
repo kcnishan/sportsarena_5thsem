@@ -1,0 +1,119 @@
+body{
+    padding-top: 50px;
+}
+
+header{
+    position: top;
+    height: 10px;
+    //margin-top: 0px;
+}
+
+#headerWrapper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+#logotext{
+    position: center;
+    width: 100%;
+    height: 180px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 180px;
+    top: 50%;
+    margin-top: 230px;
+}
+
+#partialheaderWrapper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+#partiallogotext{
+    position: center;
+    width: 100%;
+    height: 180px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 180px;
+    top: 50%;
+    margin-top: 230px;
+}
+
+.img-thumb{
+    width:auto;
+    height: 200px;
+}
+
+
+    
+#footer {
+    margin-top: 50px;
+    //background-color: #4C4;
+    //height: 30px;
+}
+
+.img-details{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.table-auto{
+    width: auto;
+    margin: 0 auto;
+}
+
+#add-product-btn{
+    margin-top: -35px;
+    
+}
+
+.saved-image img{
+    width: 200px;
+    height: auto;
+}
+
+#login-form{
+    width: 50%;
+    height: 60%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+    margin: 7% auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.glyphi.search{
+    background: url(images/dp.jpg);
+    background-size: cover;
+}
+
+.totals-table-header th{
+    text-align:center;
+}
+
+input.price-range{
+    width: 55px;
+}
+
